@@ -159,7 +159,7 @@ hi! link SpecialKey   NonText
 "}}}
 " Highlights - Generic Syntax ------------------------------{{{
 call s:h("Delimiter",  { "fg": s:dimmed })
-call s:h("Comment",    { "fg": s:comment, "gui": "italic" })
+call s:h("Comment",    { "fg": s:comment })
 call s:h("Underlined", { "fg": s:accent1, "gui": "underline", "cterm": "underline" })
 call s:h("Type",       { "fg": s:accent3 })
 call s:h("String",     { "fg": s:accent2 })
